@@ -6,9 +6,9 @@ Installed-Size: 16
 Depends: keydb-server (<< 5:5.1.12-1chl1~bionic1.1~), keydb-server (>= 5:5.1.12-1chl1~bionic1)
 Filename: ./keydb_5.3.0-1chl1~bionic1_all.deb
 Size: 4328
-MD5sum: 75e19533fce717f21832a66a5225bf4f
-SHA1: 9225ca8bbee2f1f4d7751bdef7a3c3cd4be9a532
-SHA256: 20b03454dbf8107d3e870323bb10328c987915eeafa8b8ee09ebf10325e67880
+MD5sum: 1c1e6c8f6d6aa4b2377a4c61d08e1b36
+SHA1: 6e999d39c2ffae33cdc2bad13c07ac786c61ad52
+SHA256: 4e1f3e0e11a9ea6816f5a2078ea7dda76b531f063437a4a3cba80231dbe27e79
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -30,9 +30,9 @@ Installed-Size: 52
 Depends: lsb-base (>= 3.2-14), keydb-tools (= 5:5.1.12-1chl1~bionic1)
 Filename: ./keydb-sentinel_5.3.0-1chl1~bionic1_amd64.deb
 Size: 10952
-MD5sum: 2650d6fbd5bb4d36b5150e71a0251bd5
-SHA1: 40069910882e267665d6012992f6f0ae1c9331a9
-SHA256: 75a37eab38e4a02562cccc5ad4ac9d277dfdf137448dfded05f46379b4c11b44
+MD5sum: 520cdf844f7eeb952580104df161260d
+SHA1: 1b470c8aa1991ca809ec4fcea3d572bd2e681103
+SHA256: ea1c520506cdfc6e71e6f91780d71bb5a85e09d21627c62490d0d6ba9794d282
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -51,10 +51,10 @@ Maintainer: Ben Schermel <ben@eqalpha.com>
 Installed-Size: 119
 Depends: lsb-base (>= 3.2-14), keydb-tools (= 5:5.1.12-1chl1~bionic1)
 Filename: ./keydb-server_5.3.0-1chl1~bionic1_amd64.deb
-Size: 35572
-MD5sum: 7bbe67f86449d86967354efaf54a0066
-SHA1: 39dca798c718c6d7c00a8e72ba0662497e4ffa7f
-SHA256: 659c7229806941216b254a2ce5cf97ba769868943ab88128b4eb6688df0263c6
+Size: 35556
+MD5sum: b2488e385179495d75a9cf2eb0d1228b
+SHA1: 6fc688fdfafb6eb19b75657b31121b2adfa56fed
+SHA256: b0c7469db7d601bddf27f4e08c677639e5426f868ea09234ae0aa4faf42d6f4a
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -75,10 +75,10 @@ Depends: adduser, libcurl4-openssl-dev, libc6 (>= 2.17), libcurl4 (>= 7.16.2), l
 Breaks: keydb-server (<< 2:2.6.16-1)
 Replaces: keydb-server (<< 2:2.6.16-1)
 Filename: ./keydb-tools_5.3.0-1chl1~bionic1_amd64.deb
-Size: 13928
-MD5sum: f39a02cf579a0c59a10fde8f27868bd0
-SHA1: 9918e5df27162326022abbc50d149340d2eb68ee
-SHA256: 4bfd6650d1e285b7a31cc50dc64ff1c1878bdb128674d21ba5265c86d8fd59e8
+Size: 41657844
+MD5sum: 8a0cd814e8a42db829bda45a9d5651f3
+SHA1: 43060b7313c6892297e45ed52aa96b50fb188c3f
+SHA256: 6e2e5c83f78e458accb165ecf93ef5e983820b455c39f906c1f1d5fa84e3ac3d
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
