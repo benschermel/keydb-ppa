@@ -5,10 +5,10 @@ Maintainer: Ben Schermel <ben@eqalpha.com>
 Installed-Size: 16
 Depends: keydb-server (<< 5:5.3.0-1chl1~bionic1.1~), keydb-server (>= 5:5.3.0-1chl1~bionic1)
 Filename: ./keydb_5.3.0-1chl1~bionic1_all.deb
-Size: 4408
-MD5sum: a23901a0923aaacca84a4d781c3388a1
-SHA1: 5e44b0b07dba77bfc19bbe2d637f3f47a5c8da8e
-SHA256: 44f1bd468dce43367ad27bb8bbd6f895e9df0ae53bea8f6bebc2078467fc0808
+Size: 4412
+MD5sum: 1aac73e2d945c03cba64dff5553051e6
+SHA1: 133047192b33224ae98b9a6b98df96f6cacf2ba9
+SHA256: bf99f8a417a67f0c2bc9f660d0412904fcff7daf0c17ca1dd726f6f3d140eb8e
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -28,11 +28,33 @@ Architecture: amd64
 Maintainer: Ben Schermel <ben@eqalpha.com>
 Installed-Size: 52
 Depends: lsb-base (>= 3.2-14), keydb-tools (= 5:5.3.0-1chl1~bionic1)
+Filename: ./keydb-sentinel_5.3.0-1chl1~bionic1_arm64.deb
+Size: 11028
+MD5sum: 1a2b8cde5b6b067540172ed4253269bf
+SHA1: 2e1afd20f99deaa0ed33c720ce80d5e1d416e65d
+SHA256: bda525773a91e92693f1676621004e2049291d8a4b2049828cb8fc4d56167a51
+Section: database
+Priority: optional
+Homepage: https://docs.keydb.dev/
+Description: Persistent key-value database with network interface (monitoring)
+ keydb is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. keydb additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ This package contains the keydb Sentinel monitoring software.
+
+Package: keydb-sentinel
+Source: keydb
+Version: 5:5.3.0-1chl1~bionic1
+Architecture: amd64
+Maintainer: Ben Schermel <ben@eqalpha.com>
+Installed-Size: 52
+Depends: lsb-base (>= 3.2-14), keydb-tools (= 5:5.3.0-1chl1~bionic1)
 Filename: ./keydb-sentinel_5.3.0-1chl1~bionic1_amd64.deb
-Size: 11024
-MD5sum: 5e66ca83c9a433addc0a2f207f7d1208
-SHA1: 8d47d9cb0d97c98d7a5f4db01c8fcdd18b55a192
-SHA256: 91000c92b5ea983c80e4d5ca69b7c7ee34a2980177322a31bacd216a5f8dbc83
+Size: 11028
+MD5sum: 212d0bbdea44831820dbaf1384ecf1d7
+SHA1: 47c1459fb8288d192eae8936b22850ecd0f8d867
+SHA256: 10ca23f9b79cd2e142f5e21e368e34d78e838baebdedab3c4b2f0d9a8c2c0521
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -51,10 +73,32 @@ Maintainer: Ben Schermel <ben@eqalpha.com>
 Installed-Size: 119
 Depends: lsb-base (>= 3.2-14), keydb-tools (= 5:5.3.0-1chl1~bionic1)
 Filename: ./keydb-server_5.3.0-1chl1~bionic1_amd64.deb
-Size: 35708
-MD5sum: 88f7622c5ea6f3064a62626566343fe5
-SHA1: 6a68de53d4cac1b1919b6adb220c72c1754bac3d
-SHA256: bb1f20fd0c31c2c6cb305eb12d3bf95035d97be6fae97db82c021890102a0559
+Size: 35712
+MD5sum: ebf5ab14bfa2303be124bb0f168c797c
+SHA1: 47df6fad86588e59032f6ab9463a64d7332b2645
+SHA256: 15c950c4c2654e4443001a226c79b0a5b4e6255423d443e56ec49641261e106b
+Section: database
+Priority: optional
+Homepage: https://docs.keydb.dev/
+Description: Persistent key-value database with network interface
+ keydb is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. keydb additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ The dataset is stored entirely in memory and periodically flushed to disk.
+
+Package: keydb-server
+Source: keydb
+Version: 5:5.3.0-1chl1~bionic1
+Architecture: amd64
+Maintainer: Ben Schermel <ben@eqalpha.com>
+Installed-Size: 119
+Depends: lsb-base (>= 3.2-14), keydb-tools (= 5:5.3.0-1chl1~bionic1)
+Filename: ./keydb-server_5.3.0-1chl1~bionic1_arm64.deb
+Size: 35712
+MD5sum: ef25760142223cbac39fd6b899d74063
+SHA1: b1d9e8bb928cde8c5d38df553334641db8b818c8
+SHA256: e1d80e568c34e5d83a920ce81d2ed381e48e70237edbada3cde7776e3571f028
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -74,11 +118,35 @@ Installed-Size: 5908
 Depends: adduser, libcurl4-openssl-dev, libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.8.1), libuuid1 (>= 2.16)
 Breaks: keydb-server (<< 2:2.6.16-1)
 Replaces: keydb-server (<< 2:2.6.16-1)
+Filename: ./keydb-tools_5.3.0-1chl1~bionic1_arm64.deb
+Size: 40850672
+MD5sum: e26dd5a32563668d8202b03a93146244
+SHA1: 769d6fb719194f3b85e9bd25b749a20cf4455419
+SHA256: 41d414d7858d8c1d67aad6acbf2b30184eca5d4a4ef38aa66b33369b39c3393f
+Section: database
+Priority: optional
+Homepage: https://docs.keydb.dev/
+Description: Persistent key-value database with network interface (client)
+ keydb is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. keydb additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ This package contains the command line client and other tools.
+
+Package: keydb-tools
+Source: keydb
+Version: 5:5.3.0-1chl1~bionic1
+Architecture: amd64
+Maintainer: Ben Schermel <ben@eqalpha.com>
+Installed-Size: 5908
+Depends: adduser, libcurl4-openssl-dev, libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.8.1), libuuid1 (>= 2.16)
+Breaks: keydb-server (<< 2:2.6.16-1)
+Replaces: keydb-server (<< 2:2.6.16-1)
 Filename: ./keydb-tools_5.3.0-1chl1~bionic1_amd64.deb
-Size: 41655352
-MD5sum: 8175c5e0a1f2e857cf531af43fee0220
-SHA1: 503e6dc687475af9ff91376adebc01df00cac647
-SHA256: a93094c2abe2570326f4145a58b69a3248c59fa66d6e4e222f8c80fff0a87267
+Size: 41658360
+MD5sum: 6d2765173ff1c5efafde1f644af4ed0f
+SHA1: 2481fb95f5b65fd019782389e880d4a54a36b603
+SHA256: 254b9a14a9c3298e76ea6389d8720d77e1f3071eb6f882eb8d07640c7dcb1353
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
