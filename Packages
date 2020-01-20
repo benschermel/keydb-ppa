@@ -5,10 +5,10 @@ Maintainer: Ben Schermel <ben@eqalpha.com>
 Installed-Size: 16
 Depends: keydb-server (<< 5:5.3.0-1chl1~bionic1.1~), keydb-server (>= 5:5.3.0-1chl1~bionic1)
 Filename: ./keydb_5.3.0-1chl1~bionic1_all.deb
-Size: 4412
-MD5sum: 1aac73e2d945c03cba64dff5553051e6
-SHA1: 133047192b33224ae98b9a6b98df96f6cacf2ba9
-SHA256: bf99f8a417a67f0c2bc9f660d0412904fcff7daf0c17ca1dd726f6f3d140eb8e
+Size: 4408
+MD5sum: cff032ab6fb05e8f0ed555ed1af7ad4a
+SHA1: 0872e54901b346026f77573c1626fdc4712cb176
+SHA256: 236c3a71e06e1b5267e15b8d4b9fe99c7c374cc17dacabd2a38902b8e513aa01
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -24,15 +24,15 @@ Description: Persistent key-value database with network interface (metapackage)
 Package: keydb-sentinel
 Source: keydb
 Version: 5:5.3.0-1chl1~bionic1
-Architecture: amd64
+Architecture: arm64
 Maintainer: Ben Schermel <ben@eqalpha.com>
 Installed-Size: 52
 Depends: lsb-base (>= 3.2-14), keydb-tools (= 5:5.3.0-1chl1~bionic1)
 Filename: ./keydb-sentinel_5.3.0-1chl1~bionic1_arm64.deb
 Size: 11028
-MD5sum: 1a2b8cde5b6b067540172ed4253269bf
-SHA1: 2e1afd20f99deaa0ed33c720ce80d5e1d416e65d
-SHA256: bda525773a91e92693f1676621004e2049291d8a4b2049828cb8fc4d56167a51
+MD5sum: e42233536fa1d1d7f46299cc222bdb69
+SHA1: 699af14c975096d9089d253c5f476d0c4c2f789f
+SHA256: fe120d4354b1d30d32debbb528fcd08f95fcce33d19e67906a426dbb12e399c1
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -52,9 +52,9 @@ Installed-Size: 52
 Depends: lsb-base (>= 3.2-14), keydb-tools (= 5:5.3.0-1chl1~bionic1)
 Filename: ./keydb-sentinel_5.3.0-1chl1~bionic1_amd64.deb
 Size: 11028
-MD5sum: 212d0bbdea44831820dbaf1384ecf1d7
-SHA1: 47c1459fb8288d192eae8936b22850ecd0f8d867
-SHA256: 10ca23f9b79cd2e142f5e21e368e34d78e838baebdedab3c4b2f0d9a8c2c0521
+MD5sum: f8bb632eefc6faa88bf1c768b3f08e9e
+SHA1: 306b7ca2368c5c214de6d67139ca667a5b554bac
+SHA256: 1ff998d5936cd623ad1c1ebd108df32b30fc011ed9dbd154e6b3697a316ea980
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -73,10 +73,10 @@ Maintainer: Ben Schermel <ben@eqalpha.com>
 Installed-Size: 119
 Depends: lsb-base (>= 3.2-14), keydb-tools (= 5:5.3.0-1chl1~bionic1)
 Filename: ./keydb-server_5.3.0-1chl1~bionic1_amd64.deb
-Size: 35712
-MD5sum: ebf5ab14bfa2303be124bb0f168c797c
-SHA1: 47df6fad86588e59032f6ab9463a64d7332b2645
-SHA256: 15c950c4c2654e4443001a226c79b0a5b4e6255423d443e56ec49641261e106b
+Size: 35700
+MD5sum: c03516826808ec408e556be538e44846
+SHA1: e247ffb7a941cb916fde1d32dd8d462ab939cd25
+SHA256: bbae557208d2fbb346ca03bcf87e7bb1df9f483437f37ff74fec5d094ca11f27
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -90,15 +90,15 @@ Description: Persistent key-value database with network interface
 Package: keydb-server
 Source: keydb
 Version: 5:5.3.0-1chl1~bionic1
-Architecture: amd64
+Architecture: arm64
 Maintainer: Ben Schermel <ben@eqalpha.com>
 Installed-Size: 119
 Depends: lsb-base (>= 3.2-14), keydb-tools (= 5:5.3.0-1chl1~bionic1)
 Filename: ./keydb-server_5.3.0-1chl1~bionic1_arm64.deb
-Size: 35712
-MD5sum: ef25760142223cbac39fd6b899d74063
-SHA1: b1d9e8bb928cde8c5d38df553334641db8b818c8
-SHA256: e1d80e568c34e5d83a920ce81d2ed381e48e70237edbada3cde7776e3571f028
+Size: 35704
+MD5sum: 8bb604b3b75bfe4e758f1f9a91c1c820
+SHA1: bb05fff3de089e972dbd55d15677c015f155a6e9
+SHA256: e10e6b07c384c077286462eeed2ad9b0ea033f8cf1bee77ea9a732814bd2c050
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -112,17 +112,17 @@ Description: Persistent key-value database with network interface
 Package: keydb-tools
 Source: keydb
 Version: 5:5.3.0-1chl1~bionic1
-Architecture: amd64
+Architecture: arm64
 Maintainer: Ben Schermel <ben@eqalpha.com>
 Installed-Size: 5908
 Depends: adduser, libcurl4-openssl-dev, libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.8.1), libuuid1 (>= 2.16)
 Breaks: keydb-server (<< 2:2.6.16-1)
 Replaces: keydb-server (<< 2:2.6.16-1)
 Filename: ./keydb-tools_5.3.0-1chl1~bionic1_arm64.deb
-Size: 40850672
-MD5sum: e26dd5a32563668d8202b03a93146244
-SHA1: 769d6fb719194f3b85e9bd25b749a20cf4455419
-SHA256: 41d414d7858d8c1d67aad6acbf2b30184eca5d4a4ef38aa66b33369b39c3393f
+Size: 40851604
+MD5sum: 05e265715776857493a0ca9e14de97c0
+SHA1: 2daa734c16a633c3e5562cb9723b35822c2857dc
+SHA256: 9f09c7d6bd8ce15b4b4f6c3d511a28945330512de0b1ff975ec02d014da8877b
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
@@ -143,10 +143,10 @@ Depends: adduser, libcurl4-openssl-dev, libc6 (>= 2.17), libcurl4 (>= 7.16.2), l
 Breaks: keydb-server (<< 2:2.6.16-1)
 Replaces: keydb-server (<< 2:2.6.16-1)
 Filename: ./keydb-tools_5.3.0-1chl1~bionic1_amd64.deb
-Size: 41658360
-MD5sum: 6d2765173ff1c5efafde1f644af4ed0f
-SHA1: 2481fb95f5b65fd019782389e880d4a54a36b603
-SHA256: 254b9a14a9c3298e76ea6389d8720d77e1f3071eb6f882eb8d07640c7dcb1353
+Size: 41649976
+MD5sum: 63c0057e88ccb0fe020023dc8bacd93f
+SHA1: de4b3d229bbf2ce90a641f47ea2583e7fd84024e
+SHA256: 08370fd2034393b9c39dfdb44cc4c42804354da42e6eb1f013816f010b3f4aa3
 Section: database
 Priority: optional
 Homepage: https://docs.keydb.dev/
