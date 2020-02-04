@@ -1,4 +1,3 @@
-# keydb-ppa
-Official PPA Repo for KeyDB
+### This repo will be deprecated along with Launcpad
 
-This is under development. README will be updated when repo is complete and stable
+### The official PPA for KeyDB is now hosted from keydb.dev. You can see instruction here https://docs.keydb.dev/docs/ppa-deb/
